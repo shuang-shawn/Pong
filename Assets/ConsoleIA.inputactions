@@ -1,0 +1,96 @@
+{
+    "name": "ConsoleIA",
+    "maps": [
+        {
+            "name": "Console",
+            "id": "c37108e5-8068-4307-93d2-499fa0fc9821",
+            "actions": [
+                {
+                    "name": "OpenConsole",
+                    "type": "Button",
+                    "id": "58bd3f8d-58ac-4f65-b9f7-802ca6c7613f",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "CloseConsole",
+                    "type": "Button",
+                    "id": "256d8724-8753-4984-9786-93a3e025da89",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "SubmitCommand",
+                    "type": "Button",
+                    "id": "9953530a-f301-4769-8750-c247c1325797",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "3d8f0797-571c-4dc5-b062-0feab645ac49",
+                    "path": "<Keyboard>/c",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "OpenConsole",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "One Modifier",
+                    "id": "03d82b3a-7f15-4856-9473-f0f8d0b85164",
+                    "path": "OneModifier",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "CloseConsole",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "modifier",
+                    "id": "a994c578-f88b-4b20-a9de-18c070741254",
+                    "path": "<Keyboard>/leftCtrl",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "CloseConsole",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "binding",
+                    "id": "d5f5516d-e356-4011-af1d-4551a732ebca",
+                    "path": "<Keyboard>/c",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "CloseConsole",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "",
+                    "id": "df18c48a-9b64-4444-90e4-8abe17413bb9",
+                    "path": "<Keyboard>/enter",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "SubmitCommand",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
